@@ -1,0 +1,17 @@
+ {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#### Finding Difference Between Dates"
+   ]
+  }
+
+from datetime import datetime
+from datetime import timedelta
+
+date_now = datetime.now()
+some_date = datetime(2014,12,18,12,0,0,0)
+date_diff = some_date - date_now
+
+print('Difference between these 2 dates in days is:', date_diff.days, 'days')
+print('and the number of seconds left over is:', date_diff.seconds, 'seconds')

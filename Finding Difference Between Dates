@@ -1,10 +1,4 @@
- {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Finding Difference Between Dates"
-   ]
-  }
+
 
 from datetime import datetime
 from datetime import timedelta
